@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.99.7561.40250"?>
+<worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings ppi="96">
+    <identity>
+      <id>f4401a12-40d4-4247-b7b5-325ec78373ae</id>
+      <revision>5</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <roundingMode>0</roundingMode>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="false" viewMode="2" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="9" orientation="Portrait" width="827" height="1169" />
+      <margins left="39" right="39" top="49" bottom="49" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="0.99.7561.40250" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.99.7561.40250" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="TextRegion" version="1.11.7561.40250" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+    </dependencies>
+  </settings>
+  <regions type="content">
+    <region left="0" top="0" width="195" height="24" color="#000000" fontSize="10">
+      <text lang="eng">
+        <p fontName="Arial">The calculation of Eth and Rth.</p>
+      </text>
+    </region>
+    <region left="0" top="18" width="70" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">R1</e>
+          <e type="operand">955</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="36" width="78" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">R2</e>
+          <e type="operand">1167</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="54" width="70" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">R3</e>
+          <e type="operand">800</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="72" width="70" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">R4</e>
+          <e type="operand">985</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="90" width="70" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">R5</e>
+          <e type="operand">970</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="108" width="70" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">R6</e>
+          <e type="operand">920</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="144" width="102" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Eth</e>
+          <e type="operand">20.341</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="135" top="144" width="172" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">open</e>
+          <e type="operand">circuitvoltage</e>
+          <e type="operator" args="2">-</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="162" width="141" height="33" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">I3</e>
+          <e type="operand">21.985</e>
+          <e type="operand">10</e>
+          <e type="operand">3</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="144" top="171" width="214" height="24" color="#000000" fontSize="10">
+      <text lang="eng" width="214">
+        <p fontName="Arial">short-circuit current</p>
+      </text>
+    </region>
+    <region left="0" top="189" width="164" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Rth</e>
+          <e type="operand">Eth</e>
+          <e type="operand">I3</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">925.2217</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="243" width="199" height="24" color="#000000" fontSize="10">
+      <text lang="eng">
+        <p fontName="Arial">The calculation of Eeq and Req</p>
+      </text>
+    </region>
+    <region left="0" top="261" width="225" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">R13</e>
+          <e type="operand">R1</e>
+          <e type="operand">R3</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">R1</e>
+          <e type="operand">R2</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">R3</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">261.4648</e>
+        </result>
+      </math>
+    </region>
+    <region left="252" top="261" width="225" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">R23</e>
+          <e type="operand">R2</e>
+          <e type="operand">R3</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">R1</e>
+          <e type="operand">R2</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">R3</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">319.5072</e>
+        </result>
+      </math>
+    </region>
+    <region left="486" top="261" width="225" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">R12</e>
+          <e type="operand">R1</e>
+          <e type="operand">R2</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">R1</e>
+          <e type="operand">R2</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">R3</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">381.4117</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="297" width="194" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">r1</e>
+          <e type="operand">R12</e>
+          <e type="operand">R5</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1351.4117</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="315" width="194" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">r2</e>
+          <e type="operand">R23</e>
+          <e type="operand">R4</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1304.5072</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="333" width="174" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">r</e>
+          <e type="operand">r1</e>
+          <e type="operand">r2</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">r1</e>
+          <e type="operand">r2</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">663.7726</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="369" width="186" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Req</e>
+          <e type="operand">r</e>
+          <e type="operand">R13</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">925.2374</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="387" width="179" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Eeq</e>
+          <e type="operand">Req</e>
+          <e type="operand">I3</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">20.3413</e>
+        </result>
+      </math>
+    </region>
+  </regions>
+</worksheet>

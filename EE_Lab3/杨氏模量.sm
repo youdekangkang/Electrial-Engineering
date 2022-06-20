@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.99.7579.3197"?>
+<worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings ppi="96">
+    <identity>
+      <id>ee3324ac-71ce-4116-a0e4-1a4732975c2b</id>
+      <revision>2</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <roundingMode>0</roundingMode>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="false" viewMode="2" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="9" orientation="Portrait" width="827" height="1169" />
+      <margins left="39" right="39" top="49" bottom="49" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="0.99.7579.3197" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.99.7579.3197" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+    </dependencies>
+  </settings>
+  <regions type="content">
+    <region left="0" top="0" width="228" height="43" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x2</e>
+          <e type="operand">2.45</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">2.25</e>
+          <e type="operator" args="1">-</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2.35</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="36" width="228" height="43" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x3</e>
+          <e type="operand">1.45</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">1.2</e>
+          <e type="operator" args="1">-</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.325</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="72" width="194" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x4</e>
+          <e type="operand">0.55</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">0.25</e>
+          <e type="operator" args="2">-</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.4</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="108" width="170" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x5</e>
+          <e type="operand">0.45</e>
+          <e type="operand">0.75</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.6</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="144" width="170" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x6</e>
+          <e type="operand">1.45</e>
+          <e type="operand">1.75</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.6</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="180" width="178" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x7</e>
+          <e type="operand">2.5</e>
+          <e type="operand">2.45</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2.475</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="225" width="145" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">a2</e>
+          <e type="operand">x5</e>
+          <e type="operand">x2</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2.95</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="243" width="153" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">a3</e>
+          <e type="operand">x6</e>
+          <e type="operand">x3</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2.925</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="261" width="153" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">a4</e>
+          <e type="operand">x7</e>
+          <e type="operand">x4</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2.875</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="279" width="193" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">x</e>
+          <e type="operand">a2</e>
+          <e type="operand">a3</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">a4</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">3</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2.9167</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="315" width="355" height="54" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">σx</e>
+          <e type="operand">a2</e>
+          <e type="operand">x</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">a3</e>
+          <e type="operand">x</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">a4</e>
+          <e type="operand">x</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">/</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0382</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="369" width="78" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">c1</e>
+          <e type="operand">0.05</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="387" width="236" height="56" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ux</e>
+          <e type="operand">σx</e>
+          <e type="operand">3</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">c1</e>
+          <e type="operand">3</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0363</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="450" width="642" height="43" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">d</e>
+          <e type="operand">0.480</e>
+          <e type="operand">0.475</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.486</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.471</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.465</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.460</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.510</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.511</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.497</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">9</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+          <e type="bracket">(</e>
+          <e type="operand">0.1</e>
+          <e type="operator" args="2">*</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0484</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="486" width="78" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">D</e>
+          <e type="operand">115.1</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="504" width="78" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">L</e>
+          <e type="operand">158.5</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="522" width="78" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">b</e>
+          <e type="operand">6.750</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="540" width="1198" height="54" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">σd</e>
+          <e type="operand">0.480</e>
+          <e type="operand">0.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">d</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">0.475</e>
+          <e type="operand">0.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">d</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.486</e>
+          <e type="operand">0.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">d</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.471</e>
+          <e type="operand">0.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">d</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.465</e>
+          <e type="operand">0.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">d</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.510</e>
+          <e type="operand">0.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">d</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.511</e>
+          <e type="operand">0.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">d</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">0.497</e>
+          <e type="operand">0.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">d</e>
+          <e type="operator" args="2">-</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">8</e>
+          <e type="operator" args="2">/</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.4352</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="594" width="183" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">c2</e>
+          <e type="operand">0.005</e>
+          <e type="operand">0.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0005</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="612" width="236" height="56" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ud</e>
+          <e type="operand">σd</e>
+          <e type="operand">9</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">c2</e>
+          <e type="operand">3</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.1451</e>
+        </result>
+      </math>
+    </region>
+    <region left="288" top="630" width="138" height="43" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">uD</e>
+          <e type="operand">0.5</e>
+          <e type="operand">3</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.2887</e>
+        </result>
+      </math>
+    </region>
+    <region left="288" top="666" width="138" height="43" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">uL</e>
+          <e type="operand">0.2</e>
+          <e type="operand">3</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.1155</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="675" width="261" height="70" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Y</e>
+          <e type="operand">8</e>
+          <e type="operand">3</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">9.8</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">L</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">D</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">π</e>
+          <e type="operand">d</e>
+          <e type="operand">1000</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">b</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">x</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2.9629</e>
+          <e type="operand">10</e>
+          <e type="operand">11</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="288" top="702" width="86" height="24" color="#000000" fontSize="10">
+      <math optimize="2">
+        <input>
+          <e type="operand">ub</e>
+          <e type="operand">0.002</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="756" width="430" height="56" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">E</e>
+          <e type="operand">uL</e>
+          <e type="operand">L</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">uD</e>
+          <e type="operand">D</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">Ud</e>
+          <e type="operand">d</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">4</e>
+          <e type="operator" args="2">*</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">ub</e>
+          <e type="operand">b</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">Ux</e>
+          <e type="operand">x</e>
+          <e type="operator" args="2">/</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.5997</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="810" width="181" height="33" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">UY</e>
+          <e type="operand">E</e>
+          <e type="operand">Y</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.7769</e>
+          <e type="operand">10</e>
+          <e type="operand">11</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="18" top="855" width="195" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">1.9629</e>
+          <e type="operand">0.010386</e>
+          <e type="operator" args="2">*</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0204</e>
+        </result>
+      </math>
+    </region>
+  </regions>
+</worksheet>
